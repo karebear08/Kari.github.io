@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kari's Portfolio</title>
+        
+        <style> 
+        #port {
+            background-color:lightblue;
+            text-align:center;
+            margin:auto;
+        }
+        .name{
+            color:indigo;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+        }
+        a:hover{
+            color:pink;
+        }
+        #header{
+            background-color:lightgreen;
+        }
+        table{
+            width:100%;
+        }
+        #home{
+            background-color:pink;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+        .greeting{
+            animation-name: example 
+            animation-duration:6s;
+            }
+            @keyframes example {
+                0% {color:navy;}
+                25% {color:yellow;}
+                50% {color:blue;}
+                100% {color:red;}
+            }
+            #about {
+                width: 100%;
+                margin:auto;
+                background-color:lightblue;
+                color:red;
+                padding 20px;
+                box-sizing:border-box;
+            }
+            #about h1{
+                color:Navy;
+                text-align:center;
+            }
+            #about img {
+                width:100px
+                height:auto
+                display:block;
+                margin:auto;
+            }
+            #about p {
+                font-size:18px;
+                color:navy;
+                margin-bottom:15px;
+            }
+            #about hr{
+                border:none;
+                border-top:3px solid navy;
+                width:30%;
+                margin:auto;
+            }
+            #skills{
+                background-color:lightyellow;
+                color:blue;
+                margin:auto;
+            }
+            #skills-text{
+                font-size-text: 2cm:
+                margin:auto;
+                text-align:center;
+                background-color:white;
+            }
+            #skills ul{
+                list-style-type:none;
+                padding:10px;
+                margin:auto;
+            }
+            #skils li{
+                font-family:'Verdana';
+                font-size:18px;
+                margin-bottom:10px;
+            }
+            #skills-line{
+                border:none;
+                border-top:3px solid lightblue;
+                margin:auto;
+            }
+            #projects{
+                background-color:lightblue;
+                color:blue;
+                margin:auto;
+            }
+            #projects-text{
+                font-size:2cm;
+                margin:auto;
+                text-align:center;
+                background-color:pink;
+            }
+            #projects ul {
+                list-style-type:none;
+                padding:10px;
+                margin:auto;
+            }
+            #projects li{
+                font-family:'Verdana';
+                font-size:18px;
+                margin-bottom:10px;
+            }
+            #projects-line {
+                border-top: 3px solid white;
+                margin:auto;
+            }
+            #contact {
+                width:100%;
+                border-collapse:collapse;
+                text-align:center;
+            }
+            #contact h1 {
+                margin:0;
+                color:navy;
+            }
+            #contact hr{
+                border:0;
+                border-top:2px solid navy;
+            }
+            #contact td{
+                padding:10px;
+            }
+            label {
+                font-weight:bold;
+                display:black;
+                margin-bottom:5x;
+            }
+            input, textarea{
+                width:100%;
+                padding:5px;
+                border:2px solid black;
+                border-radius:7px;
+            }
+            button {
+                background-color:pink;
+                color:black;
+                padding:10px;
+                border:
+                border-radius: 5px;
+                cursor:pointer;
+                transition:background-color 0.3s;
+            }
+            button:hover{
+                background-color:purple;
+            }
+            body{ 
+                background-color:lightyellow;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 id="header-text"> Portfolio </h1>
+        <table id="header" border="0">
+          <tr> 
+          <td class="name"> <h3> Kari </h3> </td>
+          <td> </td>
+          <td> <a href= "#home" > Home </a></td>
+          <td> | </td>
+          <td> <a href= "#about" > About </a></td>
+          <td> | </td>
+          <td> <a href= "#skills" > Skills </a></td>
+          <td> | </td>
+          <td> <a href= "#projects" > Projects </a></td>
+          <td> | </td>
+          <td> <a href= "#contact" > Contact</a></td>
+          </tr>
+        </table>
+        
+        <header id="home">
+            <h3 class="greeting" > Greeting</h3>
+        </header>
+        
+        <table id="about">
+            <tr>
+            <td>
+            <h1>About Me</h1>
+            <hr>
+            <br>
+            <img src=
+            <p>
+            I'm a sophmore and a software engineer at Creekside Highschool
+            </p>
+            <p>Thank you for visiting my website</p>
+            <p>I have experience with HTML and CSS</p>
+            
+            <p>Cheers, <br>
+            
+            </td>
+            
+            </tr>
+            
+        </table>
+        <h1 id="skills-text"> Skills </h1>
+        <hr id="skills-line"> 
+        <ul id="skills">
+            
+        <li>
+        Web Development :
+        <br>
+        Html
+        <a href= 
+        <br>
+        CSS:
+            <a href=
+        <br>
+        JavaScript :
+        
+        </li>
+        <li> Data Structures </li>
+         <li> Operating System:
+         Linux
+         
+         </li>
+         <li> Python and Java</li>
+        </ul>
+        
+        <h1 id="projects-text"> Projects </h1>
+        <hr id="projects-line">
+        <ul id="projects">
+         <li> Weather App</li>
+         <p> I built a weather app using HTML and CSS</p>
+         </li>
+         <li> Personal Portfolio
+         <p> I designed a fully functional webpage using</p>
+         </li>
+        </ul>
+        
+        <table id="contact">
+        <tr>
+        <td colspan="2">
+            <h1> Contact</h1>
+            <hr>
+        </td>
+        </tr>
+        
+        </tr>
+        
+        <tr>
+          <td width="30%">
+          <label for="name" >Name</label>
+          </td>
+          <td width="70%">
+          <input type="text" id="name" name="name">
+          </td>
+        </tr>
+        <tr>
+        <td width="30%">
+        <label for="email"> Email </label>
+        </td>
+        <td width="70%">
+            <input type="email" id="email" name="email">
+        </td>
+        
+        </tr>
+        <tr>
+            <td width="30%">
+                <label for="number"> Number </label>
+                
+            </td>
+            <td width="70%">
+              <input type="number" id="number" name ="number">
+             </td>
+        </tr>
+        <tr>
+        <td width="30%"
+            <label for="message" name="message"> </label> 
+        </td>
+        </tr>
+        <tr>
+        <td width="30%"> </td>
+        <td width="70%">
+         <button type="submit"><strong> Sumbit </strong></button>
+         <hr>
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+    
+</html>
